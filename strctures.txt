@@ -1,5 +1,5 @@
-```bash 
-2004pj/
+#2004pj/
+
 ├── app/
 │   ├── __init__.py
 │   ├── main.py              # FastAPI 主应用
@@ -23,4 +23,3 @@
 ├── docker-compose.yml      # Docker compose
 ├── .env.example           # 环境变量示例
 └── README.md              # 项目说明
-```
