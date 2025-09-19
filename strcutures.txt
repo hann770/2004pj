@@ -23,3 +23,25 @@
 ├── docker-compose.yml      # Docker compose
 ├── .env.example           # 环境变量示例
 └── README.md              # 项目说明
+
+expense-manager/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── auth.py
+│   ├── crud.py
+│   └── services.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_auth.py
+│   ├── test_groups.py
+│   ├── test_expenses.py
+│   └── test_payments.py
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── .env
+└── README.md
