@@ -1,0 +1,26 @@
+```bash 
+2004pj/
+├── app/
+│   ├── __init__.py
+│   ├── main.py              # FastAPI 主应用
+│   ├── database.py          # 数据库连接
+│   ├── models.py            # SQLAlchemy 数据模型
+│   ├── schemas.py           # Pydantic 模型
+│   ├── crud.py              # 数据库操作
+│   ├── auth.py              # 认证相关
+│   ├── dependencies.py      # 依赖注入
+│   └── services/            # 业务逻辑服务
+│       ├── __init__.py
+│       ├── balance_service.py  # 余额计算服务
+│       └── audit_service.py    # 审计服务
+├── tests/                   # 测试文件
+│   ├── __init__.py
+│   ├── test_auth.py
+│   ├── test_users.py
+│   └── test_expenses.py
+├── requirements.txt         # Python依赖
+├── Dockerfile              # Docker配置
+├── docker-compose.yml      # Docker compose
+├── .env.example           # 环境变量示例
+└── README.md              # 项目说明
+```
